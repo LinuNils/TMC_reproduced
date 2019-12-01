@@ -10,26 +10,14 @@
 ## Reproduce results
 Use the makefile to run different architectures. The main scripts used are ```TMC.py``` and ```IWAE_forward.py```, the results presented in the report were obtained by running these two scripts. The hyper parameter search can be done by configuring ```TMC_hyper_param_search.py``` and using the makefile in a similar manner. In both ```TMC.py``` and ```IWAE_forward.py``` there is the option to restore a model from a previously saved checkpoint and plot reconstructed data. To do this set ```restore_and_recon=True``` in the scripts. To train regularly set it to False.
 
-```make run K=20 EPOCHS=400 BATCHSIZE=128 FILE=models/IWAE_forward.py PYTHON=python3```
+Examples of how to run these two files:
 
-## Practical cheat sheet
+```python3 TMC.py -k 20 --epochs 400 --batch_size 128 --model_type small```   
+```python3 TMC.py -k 20 --epochs 400 --batch_size 128 --model_type large```   
 
-### create ssh key
-```ssh-keygen -t rsa -b 4096 -C```
+```python3 IWAE_forward.py -k 20 --epochs 400 --batch_size 128 --model_type small```  
+```python3 IWAE_forward.py -k 20 --epochs 400 --batch_size 128 --model_type large```   
 
-Add it to deploy keys for project. 
+The hyper parameter search can be done by configuring ```TMC_hyper_param_search.py``` or running the makefile with
 
-### Clone and change branch
-- ```git clone ...```
-- ```git fetch --all```
-- ```git checkout ...```
-
-### Run docker
-Run docker image:    
-- ```sudo docker run -it tensorflow/tensorflow:latest-gpu bash```
-
-Run docker image with gpu:s    
-- ```sudo docker run --gpus all -it tensorflow/tensorflow:latest-gpu bash```
-
-Run docker image with gpu:s and mount current folder (```$PWD```) as /temp on docker image.    
-```sudo docker run --gpus all -v $PWD:/temp -it tensorflow/tensorflow:latest-gpu bash```
+```make tmc-hyper-param-srch EPOCHS=400 BATCHSIZE=128 MODELTYPE=small FILE=models/IWAE_forward.py```
