@@ -8,7 +8,7 @@
 
 
 ## Reproduce results
-Use the makefile to run different architectures. The main scripts used are ```TMC.py``` and ```IWAE_forward.py```, the results presented in the report were obtained by running these two scripts. The hyper parameter search can be done by configuring ```TMC_hyper_param_search.py``` and using the makefile in a similar manner. In both ```TMC.py``` and ```IWAE_forward.py``` there is the option to restore a model from a previously saved checkpoint and plot reconstructed data. To do this set ```restore_and_recon=True``` in the scripts. To train regularly set it to False.
+The main scripts used are ```TMC.py``` and ```IWAE_forward.py```, the results presented in the report were obtained by running these two scripts. The hyper parameter search can be done by configuring ```TMC_hyper_param_search.py``` and using the makefile in a similar manner. In both ```TMC.py``` and ```IWAE_forward.py``` there is the option to restore a model from a previously saved checkpoint and plot reconstructed data. To do this set ```restore_and_recon=True``` in the scripts. To train regularly set it to False.
 
 Examples of how to run these two files:
 
