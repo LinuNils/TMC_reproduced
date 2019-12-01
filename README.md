@@ -8,7 +8,7 @@
 
 
 ## Reproduce results
-Use the makefile to run different architectures. The main scripts used are ```TMC.py``` and ```IWAE_forward.py```, the results presented in the report were obtained by running these two scripts. The hyper parameter search can be done by configuring ```TMC_hyper_param_search.py```.
+Use the makefile to run different architectures. The main scripts used are ```TMC.py``` and ```IWAE_forward.py```, the results presented in the report were obtained by running these two scripts. The hyper parameter search can be done by configuring ```TMC_hyper_param_search.py``` and using the makefile in a similar manner.
 
 ```make run K=20 EPOCHS=400 BATCHSIZE=128 FILE=models/IWAE_forward.py PYTHON=python3```
 
