@@ -1,0 +1,5 @@
+sudo apt-get install python3-tk
+pip install matplotlib
+pip install keras
+pip install tensorflow==1.14
+pip install tensorflow_probability=0.7.0

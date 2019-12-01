@@ -1,0 +1,14 @@
+pip install matplotlib
+sudo apt-get install texlive-full
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+sudo apt-get install gnuplot
+sudo apt-get install pdflatex
+
+# Installing R
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
+sudo apt update
+sudo apt install r-base
+
+R # run R console
+install.packages("dplyr")
