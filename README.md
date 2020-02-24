@@ -1,4 +1,4 @@
-# NeurIPS Reproducability Challenge: Tensor Monte Carlo
+# NeurIPS Reproducibility Challenge: Tensor Monte Carlo
 
 ## Requirements
 * ```matplotlib```
@@ -21,3 +21,6 @@ Examples of how to run these two files:
 The hyper parameter search can be done by configuring ```TMC_hyper_param_search.py``` or running the makefile with
 
 ```make tmc-hyper-param-srch EPOCHS=400 BATCHSIZE=128 MODELTYPE=small FILE=models/IWAE_forward.py```
+
+## Licence
+See LICENCE.txt file.
