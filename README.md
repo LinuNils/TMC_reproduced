@@ -29,4 +29,15 @@ See LICENCE.txt file.
 https://doi.org/10.5281/zenodo.3707783
 
 ## Citing
-@article{linus nilsson_martin larsson_oskar kviman_2020, title={TMC - Tensor Monte Carlo - Reproducibility Report}, DOI={10.5281/zenodo.3707783}, abstractNote={<p>Initial release of the TMC - Tensor Monte Carlo reproducibility repo for the NeurIPS 2019 Reproducibility Challenge.</p>}, publisher={Zenodo}, author={Linus Nilsson and Martin Larsson and Oskar Kviman}, year={2020}, month={Mar}}
+@software{linus_nilsson_2020_3707783,
+  author       = {Linus Nilsson and
+                  Martin Larsson and
+                  Oskar Kviman},
+  title        = {TMC - Tensor Monte Carlo - Reproducibility Report},
+  month        = mar,
+  year         = 2020,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.3707783},
+  url          = {https://doi.org/10.5281/zenodo.3707783}
+}
