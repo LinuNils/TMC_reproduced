@@ -29,6 +29,7 @@ See LICENCE.txt file.
 https://doi.org/10.5281/zenodo.3707783
 
 ## Citing
+```
 @software{linus_nilsson_2020_3707783,
   author       = {Linus Nilsson and
                   Martin Larsson and
@@ -41,3 +42,4 @@ https://doi.org/10.5281/zenodo.3707783
   doi          = {10.5281/zenodo.3707783},
   url          = {https://doi.org/10.5281/zenodo.3707783}
 }
+```
