@@ -24,3 +24,6 @@ The hyper parameter search can be done by configuring ```TMC_hyper_param_search.
 
 ## Licence
 See LICENCE.txt file.
+
+## Citing
+https://doi.org/10.5281/zenodo.3707783
