@@ -25,5 +25,8 @@ The hyper parameter search can be done by configuring ```TMC_hyper_param_search.
 ## Licence
 See LICENCE.txt file.
 
-## Citing
+## DOI
 https://doi.org/10.5281/zenodo.3707783
+
+## Citing
+@article{linus nilsson_martin larsson_oskar kviman_2020, title={TMC - Tensor Monte Carlo - Reproducibility Report}, DOI={10.5281/zenodo.3707783}, abstractNote={<p>Initial release of the TMC - Tensor Monte Carlo reproducibility repo for the NeurIPS 2019 Reproducibility Challenge.</p>}, publisher={Zenodo}, author={Linus Nilsson and Martin Larsson and Oskar Kviman}, year={2020}, month={Mar}}
